@@ -236,7 +236,7 @@
 		   	</script>
 	   	</div>
 	   	
-	   	<div data-options="region:'center',title:'回复列表'">
+	   	<div class="easyui-panel" data-options="region:'center',title:'回复列表',collapsible:true">
 	   		<table id="dg_list_reply" class="easyui-datagrid" 
 				data-options="
 					rownumbers:true,
